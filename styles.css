@@ -1,0 +1,112 @@
+body {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.coiny-font {
+    font-family: 'coiny';
+}
+li a:hover, li a:focus, li a:active, .text-purple {
+    color: #C271FF!important;
+}
+.header, .header-pricing, .header-courses  {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header {
+    background-image: url(images/pic_1.jpg);
+}
+.header-pricing {
+    background-image: url(images/pic_2.jpg);
+}
+.header-courses {
+    background-image: url(images/pic_3.jpg);
+}
+.btn-primary {
+    border-radius: 2rem;
+    background-color: #C271FF;
+    border-color: #C271FF;
+    font-size: 90%;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: #C271FF;
+    border-color: #C271FF;
+    opacity: 0.9;
+}
+.shadow-lg {
+    box-shadow: 0 0rem 2rem rgba(0,0,0,1.75)!important;
+}
+span.font-weight-bold{
+    color: #C271FF;
+}
+header.bg-purple {
+    background-color: #C271FF;
+}
+p.card-text {
+    max-width: 221px;
+}
+.bg-dark {
+    background-color: #071629!important;
+}
+tr.border-bottom {
+    border-bottom: 1px solid #dee2e63d!important;
+}
+.mw-450 {
+    max-width: 435px;
+}
+.mw-565 {
+    max-width: 565px;
+}
+.bg-light {
+	background-color: #f8f9fa4f !important;
+}
+.custom-select {
+	background: url(images/down-arrow.png) no-repeat right .75rem center/0.7rem;
+}
+.form-control::placeholder {
+	color: #ffffff7a;
+}
+/***** holberton school icons font *****/
+@font-face {
+    font-family: 'holberton_school-icon';
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4');
+    src:  url('fonts/holberton_school-icon.eot?sq4eq4#iefix') format('embedded-opentype'),
+      url('fonts/holberton_school-icon.ttf?sq4eq4') format('truetype'),
+      url('fonts/holberton_school-icon.woff?sq4eq4') format('woff'),
+      url('fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="holberton_school-icon-"], [class*=" holberton_school-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'holberton_school-icon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.holberton_school-icon-menu:before {
+    content: "\e911";
+}
+.holberton_school-icon-ic_facebook:before {
+    content: "\e908";
+}
+.holberton_school-icon-ic_instagram:before {
+    content: "\e90a";
+}
+.holberton_school-icon-ic_twitter:before {
+    content: "\e90f";
+}
+.holberton_school-icon-check:before {
+    content: "\e905";
+    color: #82D24F;
+}
+.holberton_school-icon-search_1:before {
+	content: "\e912";
+}
