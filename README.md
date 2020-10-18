@@ -1,6 +1,6 @@
-# 0x0B. Implement a design with bootstrap
+# 0x0F. Build a web app in JavaScript
 
-<h1 align=center>Holberton Smiling School
+<h1 align=center>Holberton Smiling School javascript
 
 ![Holberton Similing School](images/smile_on.png)
 
